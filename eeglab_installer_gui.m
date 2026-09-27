@@ -1,6 +1,6 @@
 function eeglab_installer_gui()
 % EEGLAB_INSTALLER_GUI  EEGLAB 图形化安装助手
-%
+% Author:he.yi@msn.com ©️ 2026 All right reserved
 % 运行后弹出窗口:
 %   - 点击"安装最新版"一键下载安装 SCCN 官网最新稳定版
 %   - 或从下拉框选择近 5 年发布的指定版本进行安装
