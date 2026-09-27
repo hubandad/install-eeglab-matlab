@@ -4,7 +4,7 @@
 
 提供两种使用方式：**图形界面（GUI）** 和命令行函数。
 
-> 中文版说明请见 [README_EN.md](README_EN.md).
+> For ENGLISH Version refer to [README_EN.md](README_EN.md).
 
 ## 方式一：图形界面（推荐）
 
