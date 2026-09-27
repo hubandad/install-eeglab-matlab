@@ -2,24 +2,29 @@
 
 一键自动下载并安装 [EEGLAB](https://sccn.ucsd.edu/eeglab/) 到 MATLAB：下载 ZIP → 解压 → 加入搜索路径 → 启动 EEGLAB。
 
-## 快速开始
+提供两种使用方式：**图形界面（GUI）** 和命令行函数。
 
-1. 把 `install_eeglab.m` 放到 MATLAB 当前工作目录（或直接粘贴到命令行窗口运行）；
-2. 运行：
+## 方式一：图形界面（推荐）
 
-```matlab
-install_eeglab
-```
-
-3. 完成后 EEGLAB 主界面自动打开；路径已用 `savepath` 保存，下次启动 MATLAB 直接可用。
-
-## 指定版本安装
+运行：
 
 ```matlab
-install_eeglab('2025.1.0')   % 安装指定版本（必须为 SCCN 已发布版本）
+eeglab_installer_gui
 ```
 
-不传参数时从官网 `eeglab_current.zip` 下载最新稳定版（当前为 EEGLAB 2026.0.0）。
+在弹出的窗口中：
+
+- 点击「下载安装最新版」一键安装官网最新稳定版（当前为 EEGLAB 2026.0.0）
+- 或从下拉框选择近 5 年发布的指定版本（2021.0 ~ 2026.0），点击「安装所选版本」
+- 可自定义安装目录，勾选「保存搜索路径」和「安装完成后启动 EEGLAB」
+- 下方日志区实时显示下载/安装进度
+
+## 方式二：命令行
+
+```matlab
+install_eeglab                % 安装最新版
+install_eeglab('2025.1.0')    % 安装指定版本（必须为 SCCN 已发布版本）
+```
 
 ## 功能
 
