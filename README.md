@@ -1,10 +1,10 @@
 # install-eeglab-matlab
 
+> 当前版本：V1.0
+
 一键自动下载并安装 [EEGLAB](https://sccn.ucsd.edu/eeglab/) 到 MATLAB：下载 ZIP → 解压 → 加入搜索路径 → 启动 EEGLAB。
 
 提供两种使用方式：**图形界面（GUI）** 和命令行函数。
-
-> For ENGLISH Version refer to [README_EN.md](README_EN.md).
 
 ## 方式一：图形界面（推荐）
 

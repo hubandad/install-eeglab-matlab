@@ -1,5 +1,7 @@
 # install-eeglab-matlab
 
+> Current version: V1.0
+
 Automatically download and install [EEGLAB](https://sccn.ucsd.edu/eeglab/) into MATLAB: download ZIP → extract → add to search path → launch EEGLAB.
 
 Two ways to use it: a **graphical installer (GUI)** and a command-line function.
